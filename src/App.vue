@@ -1,4 +1,3 @@
-```html
 <template>
   <div id="app">
     <div class="hello-wrold">
@@ -7,17 +6,17 @@
         {{ message }}
       </div>
     </div>
-    **<TodoList />**
+    <TodoList />
   </div>
 </template>
 
 <script>
-**import TodoList from "@/components/TodoList.vue"**
+import TodoList from "@/components/TodoList.vue"
 export default {
   name: "App",
-  **components: {
-    TodoList
-  },**
+  components: {
+    TodoList,
+  },
   data: function () {
     return {
       message: "WebExpert Course Vue Template",
@@ -45,4 +44,3 @@ export default {
   color: #2c3e50;
 }
 </style>
-```
